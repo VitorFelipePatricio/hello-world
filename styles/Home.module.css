@@ -44,6 +44,10 @@
     margin-top: 5%;
 }
 
+.pLeft {
+    padding-right: 20px;
+}
+
 .containerIcons {
     display: flex; 
     margin-left: 10%; 

@@ -29,7 +29,7 @@ export default function Home() {
             <div className={styles.containerRight}>
                 <form className={styles.form} action="">
                 <h1>Login</h1>
-                    <p className={styles.pRight}>Don't have an account? <Link href='/singup'><a className={styles.a}>Create your account</a></Link> it takes less then a minute.</p>
+                    <p className={styles.pRight}>Don't have an account? <Link href='/signup'><a className={styles.a}>Create your account</a></Link> it takes less then a minute.</p>
                     <div className={styles.containerInput}> 
                         <input className={styles.input} type="text" placeholder="Email" name="" id="" required />
                     </div>
