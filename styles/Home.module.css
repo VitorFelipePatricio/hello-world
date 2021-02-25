@@ -144,15 +144,20 @@
 
 @media(max-width:800px){    
     .h1 {
-        font-size: 80px;
+        font-size: 75px;
         margin-top: 0 !important;
     }
+    .h3 {
+        font-size: 17px;
+    }
     .pLeft{
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .iconFacebook , .p {
+        font-size: 14px;
     }
     .iconTwitter {
-        
-        width: 150px;
+        max-width: 150px;
     }
     .container {
         background: no-repeat;

@@ -17,7 +17,7 @@ export default function Home() {
                     <div>
                         <div className={styles.containerIcons}>
                             <div className={styles.iconFacebook}>
-                                <i className="fab fa-facebook-f"></i>
+                                <i className={styles.face} className="fab fa-facebook-f"></i>
                             </div>
                             <div className={styles.iconTwitter}>
                                 <p className={styles.p}><i className="fab fa-twitter"></i> Login with twitter</p>

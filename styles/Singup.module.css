@@ -133,11 +133,16 @@
     .h1{
         font-size: 50px;
         padding-top: 20px;
+        padding-left: 15px;
         text-align: left;
         max-width: 200px;
     }
     .h2 {
         font-size: 30px;
+    }
+    .h3{
+        padding-left: 15px;
+        font-size: 17px;
     }
     .form {
         width: 300px;
