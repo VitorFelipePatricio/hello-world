@@ -1,5 +1,6 @@
 import {render} from 'react-dom'
 import styles from '../styles/Singup.module.css'
+import Link from 'next/link'
 
 export default function Singup() {
     function Submit(e) {
@@ -39,6 +40,9 @@ export default function Singup() {
                             </div>
                             <div className={styles.erro} id='erro'></div>
                             <button className={styles.btn} type='submit'>Sing up</button>
+                            <Link href='/login'>
+                                <a className={styles.a}>Back to login</a>
+                            </Link>
                         </form>
                     </div>
                 </div>

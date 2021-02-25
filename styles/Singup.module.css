@@ -64,6 +64,14 @@
     border-bottom: 1px solid;
 }
 
+.a {
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.623);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
 .btn {
     color: white;
     background-color: rgba(0, 0, 255, 0.774);
