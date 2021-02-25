@@ -82,23 +82,23 @@
     width: 400px;
     position: relative;
     left: 50%;
-    top: 12%;
+    top: 18%;
     transform: translate(-50%, 12%);
 }
 
 .pRight {
     margin-top: 5%;
-    margin-bottom: 5%;
     color: rgba(0, 0, 0, 0.527);
 }
 
 .containerInput {
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 1px solid;
 }
 
 .input {
+    margin-top: 10px;
     font-size: 17px;
     padding-left: 5px;
 }
