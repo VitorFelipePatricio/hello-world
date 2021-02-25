@@ -67,7 +67,8 @@
 .a {
     cursor: pointer;
     color: rgba(0, 0, 255, 0.623);
-    position: relative;
+    margin-top: 10px;
+    position: absolute;
     left: 50%;
     transform: translate(-50%);
 }

@@ -39,10 +39,14 @@ export default function Singup() {
                                 <input className={styles.input} type='password' placeholder='Confirm password' name='confirmPassword' required />
                             </div>
                             <div className={styles.erro} id='erro'></div>
-                            <button className={styles.btn} type='submit'>Sing up</button>
-                            <Link href='/login'>
-                                <a className={styles.a}>Back to login</a>
-                            </Link>
+                            <div>
+                                <button className={styles.btn} type='submit'>Sing up</button>
+                            </div>
+                            <div>
+                                <Link href='/'>
+                                    <a className={styles.a}>Back to login</a>
+                                </Link>
+                            </div>
                         </form>
                     </div>
                 </div>
